@@ -8,7 +8,7 @@ const CreateTable = (props) => {
 
     return (
         <TableContainer component={Paper}>
-            <Table sx={{ width: 650 }}>
+            <Table sx={{ width: 600 }}>
                 <TableHead>
                     <TableRow>
                         <TableCell>項目</TableCell>
