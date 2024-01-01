@@ -4,6 +4,7 @@ import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper
 const CreateTable = (props) => {
     const data = props.data
     const fruitNames = Object.keys(data)
+    console.log("test")
 
     return (
         <TableContainer component={Paper}>
